@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/creativeLoginSignup/precache-manifest.d8efa5a8d3a5d0c132de18c06eca5dfa.js"
+  "/creative-login-signup/precache-manifest.4d42058c028134e0c826777741cb0e51.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/creativeLoginSignup/index.html", {
+workbox.routing.registerNavigationRoute("/creative-login-signup/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });

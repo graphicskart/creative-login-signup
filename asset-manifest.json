@@ -1,13 +1,13 @@
 {
-  "main.css": "/creativeLoginSignup/static/css/main.4ba10e87.chunk.css",
-  "main.js": "/creativeLoginSignup/static/js/main.fd2bf012.chunk.js",
-  "main.js.map": "/creativeLoginSignup/static/js/main.fd2bf012.chunk.js.map",
-  "runtime~main.js": "/creativeLoginSignup/static/js/runtime~main.825580fe.js",
-  "runtime~main.js.map": "/creativeLoginSignup/static/js/runtime~main.825580fe.js.map",
-  "static/js/2.6172f755.chunk.js": "/creativeLoginSignup/static/js/2.6172f755.chunk.js",
-  "static/js/2.6172f755.chunk.js.map": "/creativeLoginSignup/static/js/2.6172f755.chunk.js.map",
-  "index.html": "/creativeLoginSignup/index.html",
-  "precache-manifest.d8efa5a8d3a5d0c132de18c06eca5dfa.js": "/creativeLoginSignup/precache-manifest.d8efa5a8d3a5d0c132de18c06eca5dfa.js",
-  "service-worker.js": "/creativeLoginSignup/service-worker.js",
-  "static/css/main.4ba10e87.chunk.css.map": "/creativeLoginSignup/static/css/main.4ba10e87.chunk.css.map"
+  "main.css": "/creative-login-signup/static/css/main.4ba10e87.chunk.css",
+  "main.js": "/creative-login-signup/static/js/main.a50a4f53.chunk.js",
+  "main.js.map": "/creative-login-signup/static/js/main.a50a4f53.chunk.js.map",
+  "runtime~main.js": "/creative-login-signup/static/js/runtime~main.ae95f927.js",
+  "runtime~main.js.map": "/creative-login-signup/static/js/runtime~main.ae95f927.js.map",
+  "static/js/2.6172f755.chunk.js": "/creative-login-signup/static/js/2.6172f755.chunk.js",
+  "static/js/2.6172f755.chunk.js.map": "/creative-login-signup/static/js/2.6172f755.chunk.js.map",
+  "index.html": "/creative-login-signup/index.html",
+  "precache-manifest.4d42058c028134e0c826777741cb0e51.js": "/creative-login-signup/precache-manifest.4d42058c028134e0c826777741cb0e51.js",
+  "service-worker.js": "/creative-login-signup/service-worker.js",
+  "static/css/main.4ba10e87.chunk.css.map": "/creative-login-signup/static/css/main.4ba10e87.chunk.css.map"
 }
