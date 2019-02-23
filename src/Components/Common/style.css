@@ -1,0 +1,223 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	
+}
+.signupPage{
+	min-height: 100vh;
+	background: gray;
+	display: flex;
+	flex-direction: column;
+}
+.signupCon{
+	width: calc(100% - 300px);
+	margin: auto;
+	background: #fff;
+	border-radius: 20px;
+	overflow: hidden;
+	height: 80vh;
+	position: relative;
+}
+.slidingCon{
+	width: 400px;
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: absolute;
+    padding: 0 60px;
+    text-align: center;
+    background: #69b193;
+    left: 0;
+    top: 0;
+    transition: linear 0.7s 0s;
+    z-index: 10;
+}
+.slidingCon h2{
+	margin: 0;
+	color: #fff;
+	margin-bottom: 20px;
+	font-size: 35px;
+}
+.slidingCon p{
+	color: #fff;
+	margin-bottom: 40px;
+}
+.slidingCon .forSingin{
+	position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
+    opacity: 1;
+    transition: linear 0.7s 0s;
+}
+.slidingCon .forSingup{
+	position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 60px;
+    opacity: 0;
+    pointer-events: none;
+    transition: linear 0.7s 0s;
+}
+
+.slidingCon button{
+	width: 200px;
+    background: none;
+    border: solid 1px #fff;
+    color: #fff;
+    height: 45px;
+    border-radius: 50px;
+    box-shadow: none;
+    transition: all linear 0.3s 0s;
+    cursor: pointer;
+}
+.slidingCon button:hover{
+	background: rgba(255,255,255,0.2);
+}
+.slidingCon button:focus, .slidingCon button:active{
+	box-shadow: none;
+	outline: none;
+}
+
+.formContainer{
+	width: calc(100% - 400px);
+    height: 100%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: absolute;
+    padding: 0 60px;
+    text-align: center;
+    top: 0;
+    left: 400px;
+    padding: 50px 0;
+    overflow: auto;
+    transition: linear 0.7s 0s;
+}
+.formBox{
+	min-width: 350px;
+	position: absolute;
+	top: 0;
+	opacity: 1;
+    transition: linear 0.7s 0s;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formBox h2{
+	font-size: 35px;
+	color: #65ad9a;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+
+.socialCon{
+	overflow: auto;
+	margin-bottom: 20px;
+}
+.socialCon ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.socialCon ul li{
+	display: inline-block;
+	margin: 0 10px;
+}
+.socialCon ul li a{
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	border: solid 1px #ccc;
+	font-size: 16px;
+	line-height: 45px;
+	color: #383a3a;
+}
+
+.innerFormBox{
+	margin-top: 30px;
+	width: 100%;
+}
+
+.innerFormBox input[type="text"], .innerFormBox input[type="email"], .innerFormBox input[type="password"]{
+	background: #f5f8f7;
+    height: 45px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+.innerFormBox button{
+	background: #64ac9f;
+    color: #fff;
+    height: 45px;
+    border-radius: 50px;
+    padding: 6px 30px;
+    border: none;
+    text-transform: uppercase;
+}
+.innerFormBox button:hover, .innerFormBox button:focus, .innerFormBox button:active, .innerFormBox .btn-primary:not(:disabled):not(.disabled):active{
+	background: #489688;
+	box-shadow: none;
+}
+.forgotPass{
+	padding: 23px 0 33px;
+	margin-top: -10px;
+}
+.forgotPass a{
+	color: gray;
+	text-decoration: none;
+}
+
+
+
+
+.signInView .slidingCon{
+	left: calc(100% - 400px);
+}
+.signInView .formContainer{
+	left: 0;
+}
+
+.signInForm{
+	opacity: 0;
+	pointer-events: none;
+}
+.signInView .signInForm{
+	opacity: 1;
+	pointer-events: auto;
+}
+.signInView .signUpForm{
+	opacity: 0; 
+	pointer-events: none;
+}
+.signInView .slidingCon .forSingup{
+	opacity: 1;
+	pointer-events: auto;
+}
+.signInView .slidingCon .forSingin{
+	opacity: 0;
+	pointer-events: none;
+}
