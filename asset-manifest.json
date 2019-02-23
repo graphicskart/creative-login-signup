@@ -1,13 +1,13 @@
 {
-  "main.css": "/creative-login-signup/static/css/main.4ba10e87.chunk.css",
-  "main.js": "/creative-login-signup/static/js/main.a50a4f53.chunk.js",
-  "main.js.map": "/creative-login-signup/static/js/main.a50a4f53.chunk.js.map",
+  "main.css": "/creative-login-signup/static/css/main.2829d4e3.chunk.css",
+  "main.js": "/creative-login-signup/static/js/main.0a6a71fe.chunk.js",
+  "main.js.map": "/creative-login-signup/static/js/main.0a6a71fe.chunk.js.map",
   "runtime~main.js": "/creative-login-signup/static/js/runtime~main.ae95f927.js",
   "runtime~main.js.map": "/creative-login-signup/static/js/runtime~main.ae95f927.js.map",
   "static/js/2.6172f755.chunk.js": "/creative-login-signup/static/js/2.6172f755.chunk.js",
   "static/js/2.6172f755.chunk.js.map": "/creative-login-signup/static/js/2.6172f755.chunk.js.map",
   "index.html": "/creative-login-signup/index.html",
-  "precache-manifest.4d42058c028134e0c826777741cb0e51.js": "/creative-login-signup/precache-manifest.4d42058c028134e0c826777741cb0e51.js",
+  "precache-manifest.566c759566b5916b2bdf3c0be9f28328.js": "/creative-login-signup/precache-manifest.566c759566b5916b2bdf3c0be9f28328.js",
   "service-worker.js": "/creative-login-signup/service-worker.js",
-  "static/css/main.4ba10e87.chunk.css.map": "/creative-login-signup/static/css/main.4ba10e87.chunk.css.map"
+  "static/css/main.2829d4e3.chunk.css.map": "/creative-login-signup/static/css/main.2829d4e3.chunk.css.map"
 }
