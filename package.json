@@ -2,7 +2,7 @@
   "name": "creative-login-signup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://graphicskart.github.io/creative-login-signup",
+  "homepage": "https://graphicskart.github.io/creativeLoginSignup",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
